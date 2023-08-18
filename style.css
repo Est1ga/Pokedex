@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.graph-container {
+    width: 120px;
+    height: 4px;
+    border: 1px solid #000;
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    display: flex;
+}
+
+.graph-fill {
+    height: 100%;
+    background-color: rgb(221 105 95);
+    position: absolute;
+    transition: 0.5s; 
+}
+.img-pokemon{
+    width: 350px;
+    margin-bottom: -12px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #d9d6d6;
+}
+.info-head{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    width: 97%;
+    justify-items: start;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 24px;
+    color: #323846;
+}
+.name{
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+.icone-tipo{
+    background-color: #32384654;
+    border-radius: 10px;
+    padding: 5px 18px 5px 18px;
+    color: white;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.div-flex{
+    display: flex;
+}
+
+.info-card{
+    background: #323846;
+    width: 100%;
+    color: #979b9f;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 10px 40px 10px;
+
+}
+.nav-info ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 21px 0px;
+
+}
+.nav-info ul span{
+    color: #d0d2d6;
+    font-size: 14px;
+
+}
+
+.info-bottom-1{
+    display: none;
+}
+
+.info-graf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.info-bottom-3{
+    display: none;
+}
+.flex-tabela{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin-right: 15px;
+}
+.ativo{
+    border-bottom: solid 3px #4a5193;
+    padding-bottom: 9px;
+}
+.score{
+    color: white;
+    font-size: 18px;
+}
+.top{
+    width: 300px;
+}
+
+.caixa-search {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #323846;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+
+
+.caixa-texto {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.botao-search {
+    background-color: #fff;
+    margin-left: 3px;
+}
+
+.botao-search {
+    color: #acadb2;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #323846;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.caixa-texto {
+    border: none;
+    background-color: #323846;
+    outline: none;
+      outline-color: currentcolor;
+      outline-style: none;
+      outline-width: medium;
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+.busca{
+    width: 100%;
+    margin-bottom: -40px;
+}
